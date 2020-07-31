@@ -25,9 +25,11 @@ export const Nav = () => {
             </div>
             <header className="showcase">
                 <div className="container showcase-inner">
-                    <h1>WELCOME</h1>
-                    <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur </p>
+                <h1>WELLCOME</h1>
+                    <p> "Lorem ipsum dolor sit amet, Ut enim ad minim veniam, laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur </p>
+                    <a href="#" class="btn">Code</a>                
                 </div>
+
             </header>
         </div>
     )

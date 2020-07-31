@@ -1,0 +1,55 @@
+.Servicepic{
+    height: auto;
+    max-width: 800px;
+    min-width: 300px;
+    margin-top: 150px;
+
+
+}
+.content{
+    width: 50%;
+}
+.servicemain
+{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(13,110,139,0.75);
+    width: 97%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+
+
+}
+
+div{
+    font-family: lato, sans-serif;
+
+}
+.servicecontent
+{
+    text-align: center;
+}
+.servicecontent > h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: lato;
+    
+}
+.servicecontent > p {
+    color: white;
+    font-size: 1.2rem;
+}
+@media only screen and (max-width: 720px) {
+    .servicemain{
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .content{
+        width: 100%;
+    }
+
+}
