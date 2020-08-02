@@ -7,14 +7,14 @@ import useWebAnimations from "@wellyshen/use-web-animations";
 
 
 export const Services = () => {
-    const { ref: men } = useWebAnimations({
+    const { ref: text } = useWebAnimations({
         keyframes: [
-          { transform: "scale(0) " },
-          { transform: "scale(1)" },
+          { transform: "scale(0.95) " },
+          { transform: "scale(1.1)" },
         ],
         timing: {
           // delay: 500, // Start with a 500ms delay
-          duration: 5000, // Run for 1000ms
+          duration: 3000, // Run for 1000ms
           direction: "alternate", // Run the animation forwards and then backwards
           iterations: Infinity, // Repeat once
 
@@ -23,7 +23,7 @@ export const Services = () => {
       });
     return (
 <div className="servicemain" >
-        <div className="content">
+        <div className="content" ref={text}>
             <ServiceContent></ServiceContent>
         </div>
         <div  className="Servicepic">

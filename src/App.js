@@ -3,6 +3,7 @@ import './App.css';
 import { Nav } from "./component/homeComponents/Navbar/Nav";
 import { ContactUs } from "./component/contact us/ContactUs";
 import { Services } from "./component/services/Services";
+import  {AllCouces}  from "./component/cources/AllCouces";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Nav/>
         <ContactUs/>
         <Services/>
+        <AllCouces/>
 
     
         
