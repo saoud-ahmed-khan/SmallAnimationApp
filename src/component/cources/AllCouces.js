@@ -7,12 +7,18 @@ import "./course.css"
 
 
 
+
 export const AllCouces = () => {
+   
     return (
+        <div>
+          
         <div className="allcources">
-            <Course pic={Blockchain} name="Blockchain" />
+            <Course pic={Blockchain} name="BLOCKCHAIN" />
             <Course pic={Cloud} name="CLOUD COMPUTING" />
-            <Course pic={Web} name="Web Desiging" />
+            <Course pic={Web} name="WEB DESIGNING" />
+        </div>
+       
         </div>
     )
 }

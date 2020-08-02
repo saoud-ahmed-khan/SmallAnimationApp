@@ -29,9 +29,9 @@ export const Nav = () => {
                     <div>
                         <div>
                             <ul>
-                                <li><a href="#">HOME</a></li>
-                                <li><a href="#">EXPLORE</a></li>
-                                <li><a href="#">ABOUT US</a></li>
+                                <li><a href="home">HOME</a></li>
+                                <li><a href="explore">EXPLORE</a></li>
+                                <li><a href="about">ABOUT US</a></li>
                             </ul>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ export const Nav = () => {
                 <div className="container showcase-inner">
                 <h1 ref={text}>WELLCOME</h1>
                     <p> "Lorem ipsum dolor sit amet, Ut enim ad minim veniam, laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur </p>
-                    <a href="#" class="btn">Code</a>                
+                    <a href="https://github.com/saoud-ahmed-khan/AnimationApp" class="btn">Code</a>                
                 </div>
 
             </header>

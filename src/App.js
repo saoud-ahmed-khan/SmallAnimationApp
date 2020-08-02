@@ -4,6 +4,7 @@ import { Nav } from "./component/homeComponents/Navbar/Nav";
 import { ContactUs } from "./component/contact us/ContactUs";
 import { Services } from "./component/services/Services";
 import  {AllCouces}  from "./component/cources/AllCouces";
+import { Footer } from "./component/footer/Footer";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <ContactUs/>
         <Services/>
         <AllCouces/>
+        <Footer/>
 
     
         
